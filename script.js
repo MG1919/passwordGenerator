@@ -21,22 +21,15 @@ function generatePassword() {
   if (passwordUppercase) {
     megaArray = megaArray + upper;
   }
-  //  else if (passwordUppercase) {
-  //   megaArray = megaArray
-  // }
+  
   if (passwordLowercase) {
     megaArray = megaArray + lower;
   }
   
-  // else if (passwordLowercase) {
-  //   megaArray = megaArray
-  // }
   if (passwordNumbers) {
     megaArray = megaArray + nums;
   }
-  // else if (passwordNumbers) {
-  //   megaArray = megaArray
-  // }
+  
   if (passwordSchars) {
     megaArray = megaArray + schars;
   }
@@ -46,9 +39,7 @@ function generatePassword() {
  return password;
   }
 
-  // else if (passwordSchars) {
-  //   megaArray = megaArray
-  // }
+ 
   else {
   var password = "";
   for (var i = 0; i < passwordLength; i++) {
